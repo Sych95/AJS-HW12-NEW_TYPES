@@ -5,7 +5,6 @@ const avengers = new Movie(123, '///23123', 359, 'Мстители', 'Avengers',
 const spiderMan = new Movie(124, '///23124', 359, 'Человек паук', 'Spider-man', true, 2015, 'США', 'Friendly neighbor', ['action', 'superheroes'], '115')
 
 const myCart = new Cart();
-
 myCart.add(avengers);
 myCart.add(spiderMan);
 console.log(myCart.getAll());
